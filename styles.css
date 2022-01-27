@@ -1,0 +1,94 @@
+/* center all elements and put the image to the right of the paragraph */
+
+body {
+  padding: 30px;
+    font-family: Helvetica, Arial, sans-serif;
+
+  /* center the body */
+}
+
+h1 {
+  color: white;
+  display: block;
+  text-align: center;
+}
+
+section {
+  box-sizing: inherit;
+  background: lightblue;
+  border: 3px solid rgba(9, 129, 9, 0.5);
+  width: 600px;
+  height: 600px;
+  margin: 50px auto;
+  display: block;
+  padding: 25px 45px 45px;
+}
+
+img {
+  width: 200px;
+  margin-left: 2rem;
+  padding: 40px;
+  float: right;
+  shape-outside: circle(50%);
+}
+
+p {
+  display: block;
+  color: white;
+  font-size: 14px;
+  padding: 15px;
+}
+
+h2 {
+  padding-left: 10px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  color: white;
+  font-size: 18px;
+}
+
+span {
+  font-weight: bold;
+  display: block;
+  text-align: center;
+  color: white;
+}
+
+a {
+  color: rgb(3, 143, 38);
+  font-family: sans-serif;
+}
+
+ul {
+  display: inline-block;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: inline-block;
+  padding: 7px;
+}
+
+li + li {
+  border-left: 2px solid;
+  line-height: 1;
+  padding: 0 5px;
+}
+footer {
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+}
+/*
+li:after {
+  content: '|';
+} */
+
+span > a {
+  border-left: 2px solid grey;
+  line-height: 1;
+  padding: 0 5px;
+  display: inline-block;
+}
